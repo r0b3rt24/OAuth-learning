@@ -17,8 +17,8 @@ router.get('/google', passport.authenticate('google', {
 }));
 
 // handle redirect
-router.get('/google/redirect', (req, rep)=>{
-    rep.send("welcome back");
-})
+router.get('/google/redirect', passport.authenticate('google'), (req, res)=>{
+    res.send("welcome back");
+});
 
 module.exports = router;
