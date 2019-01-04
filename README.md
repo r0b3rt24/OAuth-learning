@@ -1,8 +1,7 @@
 # OAuth with Passport.js
 #express #backend #authentication #web
 
-This is the note for course on youtube
-[OAuth Login (Passport.js) Tutorial #2 - The OAuth Flow - YouTube](https://www.youtube.com/watch?v=CHodPpqLqG8&index=2&list=PL4cUxeGkcC9jdm7QX143aMLAqyM-jTZ2x)
+My OAuth module built with Passport.js and mongoDB. 
 
 ![](README/Screen%20Shot%202019-01-01%20at%205.00.57%20PM.png)
 - - - -
